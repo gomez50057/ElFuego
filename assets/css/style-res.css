@@ -1156,6 +1156,11 @@ body.nav-active {
   margin-block-end: 40px;
 }
 
+.text-plus {
+  margin-block-start: -30px;
+  margin-block-end: 40px;
+}
+
 .menu .grid-list {
   margin-block-end: 50px;
 }
@@ -1520,6 +1525,15 @@ body.nav-active {
 /**
  * responsive for larger than 575px screen
  */
+ @media (max-width: 575px) {
+  .slider-item h2 {
+    opacity: 0;
+  visibility: hidden;
+  }
+
+ }
+
+
 
 @media (min-width: 575px) {
 
@@ -1742,6 +1756,8 @@ body.nav-active {
     width: calc(50% - 20px);
     margin-inline: auto;
   }
+
+  
 
 
 
